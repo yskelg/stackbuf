@@ -1,0 +1,18 @@
+[  618.059978] Stack trace(271):
+               stackbuf_init+0x1a/0xeda [stackbuf]
+               do_one_initcall+0x46/0x1e0
+               do_init_module+0x52/0x260
+               load_module+0xb45/0xbe0
+               __do_sys_finit_module+0xbf/0x120
+               __x64_sys_finit_module+0x18/0x20
+               x64_sys_call+0x1ac3/0x1fa0
+               do_syscall_64+0x56/0xb0
+               entry_SYSCALL_64_after_hwframe+0x6c/0xd6
+[  626.558990] Stack trace(207):
+               stackbuf_exit+0xe/0x36 [stackbuf]
+               __do_sys_delete_module.constprop.0+0x184/0x290
+               __x64_sys_delete_module+0x12/0x20
+               x64_sys_call+0x16cf/0x1fa0
+               do_syscall_64+0x56/0xb0
+               entry_SYSCALL_64_after_hwframe+0x6c/0xd6
+[  626.558993] EXIT stackbuf.

@@ -1,0 +1,9 @@
+stackbuf_init (/home/tester/stackbuf/stackbuf.c:12) stackbuf 
+do_one_initcall (/build/linux-mJOtZy/linux-5.15.0/init/main.c:1302) 
+do_init_module (/build/linux-mJOtZy/linux-5.15.0/kernel/module.c:3740) 
+load_module (/build/linux-mJOtZy/linux-5.15.0/kernel/module.c:4148) 
+__do_sys_finit_module (/build/linux-mJOtZy/linux-5.15.0/kernel/module.c:4239) 
+__x64_sys_finit_module (/build/linux-mJOtZy/linux-5.15.0/kernel/module.c:4216) 
+x64_sys_call (/build/linux-mJOtZy/linux-5.15.0/arch/x86/entry/syscall_64.c:33) 
+do_syscall_64 (/build/linux-mJOtZy/linux-5.15.0/arch/x86/entry/common.c:51 /build/linux-mJOtZy/linux-5.15.0/arch/x86/entry/common.c:81) 
+entry_SYSCALL_64_after_hwframe (/build/linux-mJOtZy/linux-5.15.0/arch/x86/entry/entry_64.S:119) 
